@@ -1,4 +1,5 @@
-# Github from scratch (new text again)
+# Github from scratch
+- `git clone https://github.com/meandAIare2distinctentities/function-for-convinient.git`: get your folder into VS code from repository on Github.
 - `git --version`: check your Github version.
 - `cd yourfolder`: move your directory to another folder.
 - `git add .`: if you create a new file on your local machine but do not use this statement, Github doesn't know about this file, so we have to apply this one to tell Git to track all the changes of these files (update a file, create a new file,...).
@@ -12,7 +13,14 @@
 - Step 3: Enter file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM):[Press enter] (type in your fav name, exp: gitkey).
 - Step 4: Enter passphrase (empty for no passphrase).
 - Step 5: Enter same passphrase again.
-`gitkey` and `gitkey.pub` will be generated for you.
-`cat gitkey/gitkey.pub`: totally show your created SSH keys.
+- `gitkey` and `gitkey.pub` will be generated for you.
+- `cat gitkey/gitkey.pub`: totally show your created SSH keys.
 
-`git push origin main`: push all your updated files to Github.com. 
+- `git push origin main`: push all your updated files to Github.com. 
+- `git pull origin main`: after pushing your updated files to Git, say if you want to updated once again, you have to first pull these files down, then resolving conflicts (if it was), then perform `git add .` and `git commit` again. 
+
+# Git branching
+- `git checkout -b your-branch-name`: create a new branch.
+- `git branch`: check the current branch that you're in.
+- `git checkout your-branch-name`: move into another branch.
+
