@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Github from scratch  (new text)
 `git --version`: check your Github version.
 `cd yourfolder`: move your directory to another folder.
@@ -16,3 +17,4 @@
 `cat gitkey/gitkey.pub`: totally show your created SSH keys.
 
 `git push origin main`: push all your updated files to Github.com. 
+
