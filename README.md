@@ -1,4 +1,4 @@
-# Github from scratch
+# Github from scratch (new text)
 - `git --version`: check your Github version.
 - `cd yourfolder`: move your directory to another folder.
 - `git add .`: if you create a new file on your local machine but do not use this statement, Github doesn't know about this file, so we have to apply this one to tell Git to track all the changes of these files (update a file, create a new file,...).
