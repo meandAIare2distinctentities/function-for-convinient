@@ -1,4 +1,5 @@
 # Github from scratch (last modified)
+# Github from scratch (test pull request)
 - `git clone https://github.com/meandAIare2distinctentities/function-for-convinient.git`: get your folder into VS code from repository on Github.
 - `git --version`: check your Github version.
 - `cd yourfolder`: move your directory to another folder.
